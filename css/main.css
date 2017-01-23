@@ -1,13 +1,31 @@
-body{
-  background-color: lightblue;
+
+.center{
+    position:absolute;
+    width: 500px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: helvetica;
 }
 
-h1{
-  color: white;
-  text-align:center;
+.fillScreen{
+    background-color:#2d2d2d;
+    position:absolute;   
+    width: 100%;
+    height:auto;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
 }
-p{
-  color: white;
-  text-align:center;
-  font-family: verdana;
-}
+
